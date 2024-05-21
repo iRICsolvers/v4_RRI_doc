@@ -38,11 +38,10 @@ RRI on iRICを利用する準備
 
 - 1. RRI on iRIC をダウンロード
 
-    - `rri_v1 <https://uc.i-ric.org/uc_products/rri_examples/rri_v1.7z>`_
+    - `rri_v1 <https://uc.i-ric.org/uc_products/rri_on_iric/v4_rri_240521.zip>`_
 
 
-- 2. ダウンロードしたデータを展開して、iRICのソルバフォルダにコピー＆ペースト。
-    デフォルトでは、"C:\Users\[ユーザー名]\iRIC\solvers"
+- 2. ダウンロードしたデータを展開して、iRICのソルバフォルダにコピー＆ペースト。デフォルトでは、"C:/Users/[ユーザー名]/iRIC_v4/private/solvers"
 
 - 3. 完了。iRICソフトウェアを起動するとRRIが選択できるようになっています。
 
