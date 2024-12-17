@@ -45,7 +45,7 @@ RRI on iRICを利用する準備
 
 - 3. 完了。iRICソフトウェアを起動するとRRIが選択できるようになっています。
 
-    .. image:: img/rri_v1.jpg
+    .. image:: img/rri_v12.jpg
         :width: 640px
 
 
