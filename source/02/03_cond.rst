@@ -42,7 +42,7 @@ iRICソフトウェアを起動し、「新しいプロジェクト」から"RRI
 
 さらに保存方法を選択する画面が表示されますので、「ファイルに保存（ipro）」を選択して「OK」ボタンをクリックし、適当な名前を設定して保存してください。
 
-.. figure:: img/save_type2.jpg
+.. figure:: img/save_type.jpg
    :scale: 80%
    :alt:
 
