@@ -1,7 +1,7 @@
 Introduction
 ==================================================
 
-This document is a user manual for RRI on iRIC. (test v16.1)
+This document is a user manual for RRI on iRIC. (This is a test page v16.2 edited by Harada.)
 
 About RRI:   
 The RRI model is to simulate a Rainfall-Runoff-Inundataion processes  [1]_ ,  [2]_ ,  [3]_ .   
@@ -16,42 +16,35 @@ This document focuses on explaining how to use this program, RRI on iRIC, within
 
 -----
 
-RRI on iRICについて
+About RRI on iRIC
 ------------------------------
-RRI on iRICは、 `「降雨流出氾濫（RRI）モデルプログラム利用規約 <https://www.pwri.go.jp/icharm/research/rri/rri_contract_j.html>`_ 」、第1章ⅱ、ⅲの項目に基づき改変公開しているものです。
-そのため、RRI on iRIC(以降、本プログラム)による計算結果の公表、頒布する場合は下記内容を明記してください。
+RRI on iRIC is modified and released based on items ii and iii of Chapter 1 of the `Rainfall-Runoff-Inundation (RRI) Model Program Terms of Use <https://www.pwri.go.jp/icharm/research/rri/rri_contract_j.html>`_
+Therefore, when publishing or distributing the calculation results using RRI on iRIC (hereafter referred to as "this program"), please clearly state the following:
 
 ---
 
-- 本プログラムの原著作物（以降、RRI）の著作権は、土木研究所（ICHARM）にあります
-- 本プログラムは、RRIの二次著作物にあたります。
-- 計算結果は、RRIを改変したプログラム（本プログラム）によるものです
+- The copyright of the original work of this program (hereafter referred to as "RRI") belongs to the Public Works Research Institute (ICHARM).
+- This program is a derivative work of RRI.
+- The calculation results are derived from the modified program (this program) based on RRI.
 
 ---
 
 
 -----
 
-RRI on iRICを利用する準備
+Preparing to Use RRI on iRIC
 ------------------------------
 
-- 1. RRI on iRIC をダウンロード
+- 1. Download RRI on iRIC  (the url must be modified later)
 
     - `rri_v1 <https://uc.i-ric.org/uc_products/rri_on_iric/v4_rri_240521.zip>`_
 
 
-- 2. ダウンロードしたデータを展開して、iRICのソルバフォルダにコピー＆ペースト。デフォルトでは、"C:/Users/[ユーザー名]/iRIC_v4/private/solvers"
+- 2. Extract the downloaded data and copy & paste it into the solver folder of iRIC. By default, this folder is located at "C:/Users/username/iRIC_v4/private/solvers"
 
-- 3. 完了。iRICソフトウェアを起動するとRRIが選択できるようになっています。
+- 3. When you launch the iRIC software, RRI will be available for selection.
 
-    .. image:: img/rri_v12.jpg
-        :width: 640px
-
-
-
-
-
-以上。
+    .. image:: img/RRI_v4_en3.jpg
 
 
 
