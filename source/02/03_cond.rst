@@ -85,6 +85,8 @@ iRICソフトウェアを起動し、「新しいプロジェクト」から"RRI
    格子属性：DIR　流向。East(1),South-East(2),South(4),South-West(8),West(16),North-West(32),North(64),North-East(128)
 
 .. figure:: img/ini_acc.jpg
+   :width: 1342px
+   :height: 782px
    :scale: 80%
    :alt:
 
