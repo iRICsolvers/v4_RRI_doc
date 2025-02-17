@@ -31,14 +31,13 @@ RRIは流域を対象とした計算モデルです。計算には同一格子�
 .. image:: img/extract_basin_2_extracted2.jpg
 
 - [4] STEP3:「取得」ボタンをクリックします。[2]で抽出された流域の地形データセットをダウンロードすることができます。ダウンロードしたファイルを解凍すると以下データが格納されていることが確認できます。
-- export_dir.asc　表面流向データ(*)
-- export_elv.asc　水文補正標高(*)
-- export_hnd.asc　直近の河道からの相対高さ(*)
-- export_upa.asc　上流集水面積(*)
-- export_upg.asc　上流集水グリッド数(*)
-- export_wth.asc　河道幅(*)
-- export_ldu.asc　土地利用データ(**)
-
+    export_dir.asc　表面流向データ(*)
+    export_elv.asc　水文補正標高(*)
+    export_hnd.asc　直近の河道からの相対高さ(*)
+    export_upa.asc　上流集水面積(*)
+    export_upg.asc　上流集水グリッド数(*)
+    export_wth.asc　河道幅(*)
+    export_ldu.asc　土地利用データ(**)
 
 (*)各データの詳細については、  `「日本域表面流向マップ」 <http://hydro.iis.u-tokyo.ac.jp/~yamadai/JapanDir/>`_   をご確認ください。
 
