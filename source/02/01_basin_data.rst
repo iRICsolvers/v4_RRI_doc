@@ -25,10 +25,10 @@ RRIは流域を対象とした計算モデルです。計算には同一格子�
 
 - [1]  `「流域データ抽出」 <https://tools.i-ric.info/login/>`_  にアクセス
 - [2] STEP1:対象流域河道の下流端をクリックします。（下図は豊平川の下流端点です。クリックした位置にピンマークが表示されます。）
-   .. image:: img/extract_basin_1_click2.jpg
+.. image:: img/extract_basin_1_click2.jpg
 
 - [3] STEP2:「検索」ボタンをクリックします。しばらく待つと[2]で指定した地点を下流端とする流域が表示されます。
-   .. image:: img/extract_basin_2_extracted2.jpg
+.. image:: img/extract_basin_2_extracted2.jpg
 
 - [4] STEP3:「取得」ボタンをクリックします。[2]で抽出された流域の地形データセットをダウンロードすることができます。ダウンロードしたファイルを解凍すると以下データが格納されていることが確認できます。
    - export_dir.asc　表面流向データ(*)
