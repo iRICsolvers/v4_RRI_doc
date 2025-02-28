@@ -4,7 +4,7 @@ Introduction
 本書は **RRI on iRIC** の「事例集」です。
 
 
-RRIについて テスト
+RRIについて
 ------------------------------
 RRIはRain Runoff Inundationモデルの略で、流域に降った雨が河川に集まる現象、洪水が河川を流下する現象、河川を流れる水が氾濫原に溢れる現象を流域一体で予測するモデルです。
 2016年5月からは、RRIモデルを `ICHARMホームページ  <https://www.pwri.go.jp/icharm/research/rri/index_j.html>`_  でも公開し、誰でも無料で入手できます。
@@ -53,7 +53,6 @@ RRI on iRICを利用する準備
 
 
 以上。
-
 
 
 
