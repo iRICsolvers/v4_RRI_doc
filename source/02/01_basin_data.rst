@@ -70,3 +70,8 @@ Below are the steps to obtain the data using UC tools:
    :alt:
 
    Visualizing land use data. Land use is classified into five categories. The original data is "National Land Numerical Information Land Use Detailed Mesh Data."
+
+
+.. note::
+Spatial distributions of channel width and water depth, created using the existing RRI-GUI or any GIS software, can also be imported.
+In that case, right-click "Channel width (m)" in the object browser and specify the file to import via Import > Raster Data.
