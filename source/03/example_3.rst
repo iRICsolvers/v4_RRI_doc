@@ -7,12 +7,12 @@ Example3：(RSRモデル) 2017年7月 黒川
 .. [1] `原田大輔, 江頭進治, 秦梦露. (2024). 降雨-土砂・流木流出モデルの特性-土砂粒度分布と流木の時空間変化に着目して. 河川技術論文集, 30, 335-340. <https://www.jstage.jst.go.jp/article/river/30/0/30_335/_article/-char/ja/>`_ 
 -----
 
-0. サンプルデータ (置き場所検討中)
+0. サンプルデータ
 --------------------------------------------------
 この事例で利用するサンプルデータは以下からダウンロードすることができます。
 
-- 地形および降雨データセット → `data_1 <https://uc.i-ric.org/uc_products/rri_examples/data_1.7z>`_ 
-- iRICソフトウェア用プロジェクトファイル　→ `data_1_iRIC <https://uc.i-ric.org/uc_products/rri_examples/2016_minami-furano.ipro>`_  
+- 地形および降雨データセット → `data_3 <https://uc.i-ric.org/uc_products/rri_examples/Terauchi_data.zip>`_ 
+- iRICソフトウェア用プロジェクトファイル　→ `data_3_iRIC <https://uc.i-ric.org/uc_products/rri_examples/2017_kurokawa.ipro>`_  
 
 
 １．流域地形データセットの作成
