@@ -19,7 +19,7 @@ RRIはRain Runoff Inundationモデルの略で、流域に降った雨が河川�
 
 RRI on iRICについて
 ------------------------------
-本プログラム「RRI on iRIC」は、RRIモデルをiRIC上で利用できるよう、 `「降雨流出氾濫（RRI）モデルプログラム利用規約 <https://www.pwri.go.jp/icharm/research/rri/rri_contract_j.html>`_ 」、第1章ⅱ、ⅲの項目に基づき改変公開しているものです。
+「RRI on iRIC」は、RRIモデルをiRIC上で利用できるよう、 `「降雨流出氾濫（RRI）モデルプログラム利用規約 <https://www.pwri.go.jp/icharm/research/rri/rri_contract_j.html>`_ 」、第1章ⅱ、ⅲの項目に基づき改変公開しているものです。
 そのため、RRI on iRIC(以降、本プログラム)による計算結果の公表、頒布する場合は下記内容を明記してください。
 
 ---
