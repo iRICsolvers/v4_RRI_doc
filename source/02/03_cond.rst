@@ -1,12 +1,13 @@
 3. Set calculation conditions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Launch the iRIC software and select "Rainfall-Runoff-Inundation v1.4.2.3" from "New Project."
+Launch the iRIC software and select "Rainfall-Runoff-Inundation v1.4.2.2" from "New Project."
 
 RRI on iRIC primarily involves specifying and creating grid and grid attribute values through the "Calculation Conditions" menu.
 
 Click on "Calculation Conditions > Settings."
 
+- Please note that the screenshots may slightly differ from the latest interface, but the content remains the same.
 
 3.1 Creating Grids and Grid Attributes
 +++++++++++++++++++++++++++++++++++++++
@@ -243,4 +244,22 @@ Hot start is used when you want to start a calculation using the results of a pr
      - Conditions
    * - .. image:: img/cond_8_en.jpg
      - | - Hotstart 
+
+
+3.7 Settings for Advanced Users
+++++++++++++++++++++++++++++++
+The RRI model uses the Adaptive Runge-Kutta method, which automatically adjusts the calculation time step (default: 600 seconds for slopes, 60 seconds for river channels, see Section 3.3) 
+to ensure that the error in the convergence calculation is below a certain value (eps). 
+When using a small mesh size, such as 10m, in the RSR model analysis, reducing the value of eps (for example, by one order of magnitude) can stabilize the calculation.
+Similarly, ddt_min_riv is the truncation error for river channel calculations, and ddt_min_slo is the truncation error for slope calculations.
+When using a small mesh size like 10m, reducing these values by about one order of magnitude can help prevent calculation failures.
+
+.. list-table:: Settings for Advanced Users
+   :widths: 70 30
+   :header-rows: 1
+
+   * - Screen
+     - Conditions
+   * - .. image:: img/RSR_cond83_en.jpg
+     - | - Settings for Advanced Users 
 

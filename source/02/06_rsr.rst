@@ -78,6 +78,7 @@ Next, the detailed calculation conditions (regulations) are explained.
 - Minimum unit channel slope：When employing the Egashira et al. formula for bed load transport, the exchange layer thickness is dynamically evaluated. If the bed slope of the unit river channel is milder than this value, this value will be set as the unit river channel bed slope.
 - Maximum unit channel slope (degree)：If the gradient of a channel cell is greater than this value, cells upstrem of this degree will not be treated as the unit channel.
 - Minimum river depth for sediment computation(m)：The average water depth of the river channel cells within a unit channel is employed as the water depth for the unit channel. If the water depth is shallower than this value, sediment transport calculations will not be performed at that unit channel.
+- In cases where significant sediment are suddenly supplied to a river channel (e.g., during sediment floods or debris flows), the channel may become fully clogged, hindering further downstream sediment transport. To solve this, enabling this function will simulate sediment overflow onto the floodplain when the channel capacity is nearing exhaustion due to deposition. This prevents further sediment accumulation within the channel.
 
 6.3. Non-uniform GSDs for river and slope
 --------------------------------------------------
@@ -136,11 +137,12 @@ The density of standing trees is set as a parameter.
 
 6.7. Advanced settings for the RSR model
 --------------------------------------------------
-The RRI model uses the Adaptive Runge-Kutta method, which automatically adjusts the calculation time step (default: 600 seconds for slopes, 60 seconds for river channels, see Section 3.3) 
-to ensure that the error in the convergence calculation is below a certain value (eps). 
-When using a small mesh size, such as 10m, in the RSR model analysis, reducing the value of eps (for example, by one order of magnitude) can stabilize the calculation.
-Similarly, ddt_min_riv is the truncation error for river channel calculations, and ddt_min_slo is the truncation error for slope calculations.
-When using a small mesh size like 10m, reducing these values by about one order of magnitude can help prevent calculation failures.
+In the RSR model, unit channels, which are defined as the sections between confluences, are automatically generated across the entire watershed based on topographic data. 
+Therefore, if there are no confluences over a long stretch, a single unit channel can become extremely long. 
+To avoid this, this function allows you to divide long unit channels into several smaller ones. 
+By specifying the start and end coordinates (i, j) of the section you wish to divide and setting the desired number of divisions, you can effectively segment the unit channel.
+
+It is also possible to output detailed calculation results to the solver console
 
 .. figure:: img/RSR_cond_7_en.jpg
    :scale: 60%

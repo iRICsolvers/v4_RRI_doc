@@ -14,7 +14,7 @@ This section demonstrates the procedure for simulating the flooding in the Sorac
 The sample data used in this example can be downloaded from the following links:
 
 - Terrain and rainfall dataset  → `data_1 <https://uc.i-ric.org/uc_products/rri_examples/data_1.7z>`_ 
-- iRIC software project file 　→ `data_1_iRIC <https://uc.i-ric.org/uc_products/rri_examples/2016_minami-furano.ipro>`_  
+- iRIC software project file 　→ `data_1_iRIC <https://uc.i-ric.org/uc_products/rri_examples/2016_minami-furano_2.ipro>`_  
 
 
 
