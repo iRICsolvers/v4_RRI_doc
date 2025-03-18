@@ -11,8 +11,9 @@ This example alanlyze a sub-basin of the Sada River, the Kurokawa River basin (c
 --------------------------------------------------
 The sample data used in this example can be downloaded from the following links:
 
-- Terrain and rainfall dataset → data_2 (under Preparation)
-- iRIC software project file → data_2_iRIC (under Preparation)
+- Terrain, rainfall, and sediment dataset → `data_2 <https://uc.i-ric.org/uc_products/rri_examples/Terauchi_data.zip>`_
+- iRIC software project file →  `data_2_iRIC <https://uc.i-ric.org/uc_products/rri_examples/2017_kurokawa.ipro>`_  
+
 -----
 
 １．Creating the Watershed Topographic Dataset
