@@ -1,13 +1,13 @@
 Introduction
 ==================================================
 
-本書は **RRI on iRIC** の「事例集」です。
+本書は **RRI on iRIC** の事例集です。
 
 
 RRIについて
 ------------------------------
 RRIはRain Runoff Inundationモデルの略で、流域に降った雨が河川に集まる現象、洪水が河川を流下する現象、河川を流れる水が氾濫原に溢れる現象を流域一体で予測するモデルです。
-2016年5月からは、RRIモデルを `ICHARMホームページ  <https://www.pwri.go.jp/icharm/research/rri/index_j.html>`_  でも公開し、誰でも無料で入手できます。
+2016年5月からは、RRIモデルを `ICHARMホームページ  <https://www.pwri.go.jp/icharm/research/rri/index_j.html>`_  で公開し、誰でも無料で入手できます。
 
 モデル詳細については、上記ダウンロードサイトからダウンロードできるデータに同梱されているマニュアルを参照するか、以下の文献 [1]_ ,  [2]_ ,  [3]_ を参照ください。
 
@@ -19,7 +19,7 @@ RRIはRain Runoff Inundationモデルの略で、流域に降った雨が河川�
 
 RRI on iRICについて
 ------------------------------
-RRI on iRICは、 `「降雨流出氾濫（RRI）モデルプログラム利用規約 <https://www.pwri.go.jp/icharm/research/rri/rri_contract_j.html>`_ 」、第1章ⅱ、ⅲの項目に基づき改変公開しているものです。
+本プログラム「RRI on iRIC」は、RRIモデルをiRIC上で利用できるよう、 `「降雨流出氾濫（RRI）モデルプログラム利用規約 <https://www.pwri.go.jp/icharm/research/rri/rri_contract_j.html>`_ 」、第1章ⅱ、ⅲの項目に基づき改変公開しているものです。
 そのため、RRI on iRIC(以降、本プログラム)による計算結果の公表、頒布する場合は下記内容を明記してください。
 
 ---
