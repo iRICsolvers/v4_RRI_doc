@@ -12,8 +12,8 @@ Example1：2016年8月 空知川
 --------------------------------------------------
 この事例で利用するサンプルデータは以下からダウンロードすることができます。
 
-- 地形および降雨データセット → `data_1 <https://uc.i-ric.org/uc_products/rri_examples/data_1.7z>`_ 
-- iRICソフトウェア用プロジェクトファイル　→ `data_1_iRIC <https://uc.i-ric.org/uc_products/rri_examples/2016_minami-furano_2.ipro>`_  
+- 地形および降雨データセット → `data_1 <https://i-ric.org/uc/uc_products/rri_examples/data_1.7z>`_
+- iRICソフトウェア用プロジェクトファイル　→ `data_1_iRIC <https://i-ric.org/uc/uc_products/rri_examples/2016_minami_furano_.ipro>`_  
 
 
 

@@ -14,8 +14,8 @@ Example2：2020年7月 球磨川
 --------------------------------------------------
 この事例で利用するサンプルデータは以下からダウンロードすることができます。
 
-- 地形および降雨データセット → `data_2 <https://uc.i-ric.org/uc_products/rri_examples/data_2.7z>`_  
-- iRICソフトウェア用プロジェクトファイル　→ `data_2_iRIC <https://uc.i-ric.org/uc_products/rri_examples/2020_kumagawa.ipro>`_  
+- 地形および降雨データセット → `data_2 <https://i-ric.org/uc/uc_products/rri_examples/data_2.7z>`_
+- iRICソフトウェア用プロジェクトファイル　→ `data_2_iRIC <https://i-ric.org/uc/uc_products/rri_examples/2020_kumagawa.ipro>`_  
 
 
 １．流域地形データセットの取得

@@ -11,8 +11,8 @@ Example3：(RSRモデル) 2017年7月 黒川
 --------------------------------------------------
 この事例で利用するサンプルデータは以下からダウンロードすることができます。
 
-- 地形および降雨データセット → `data_3 <https://uc.i-ric.org/uc_products/rri_examples/Terauchi_data.zip>`_ 
-- iRICソフトウェア用プロジェクトファイル　→ `data_3_iRIC <https://uc.i-ric.org/uc_products/rri_examples/2017_kurokawa.ipro>`_  
+- 地形および降雨データセット → `data_3 <https://i-ric.org/uc/uc_products/rri_examples/Terauchi_data.zip>`_
+- iRICソフトウェア用プロジェクトファイル　→ `data_3_iRIC <https://i-ric.org/uc/uc_products/rri_examples/2017_kurokawa.ipro>`_  
 
 
 １．流域地形データセットの作成
