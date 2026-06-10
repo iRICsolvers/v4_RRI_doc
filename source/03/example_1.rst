@@ -22,7 +22,7 @@ The sample data used in this example can be downloaded from the following links:
 --------------------------------------------------
 The basin topographic dataset is included in the data downloadable from "0. Sample Data".
 (Please also refer to the section 'Overview 1.')
-Members of iRIC-UC can obtain those using the following method:
+By using `UC tools <https://tools.i-ric.info/login/>`_, which is available to anyone upon registration, you can also easily obtain the data via the following method:
 
 - [1] Access the tool `'Basin Data Extraction'  <https://tools.i-ric.info/login/>`_ 
 - [2] Download the 3-second mesh MERIT Hydro data.

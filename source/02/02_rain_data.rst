@@ -7,7 +7,7 @@ The dataset should include rainfall data that covers the target watershed, for t
 Rainfall intensity data, including both observed and forecasted data, is created and distributed by the Japan Meteorological Agency. Additionally, researchers may generate their own rainfall data using mesoscale models or other methods.
 
 For instructions on preparing the rainfall dataset, please refer to Chapter 4 or Chapter 9 of the RRI_Manual.
-The iRIC-UC tool also provides a tool for extracting rainfall data within Japan.
+By using `UC tools <https://tools.i-ric.info/login/>`_, which is available to anyone upon registration, you can also easily extract rainfall data within Japan.
 
 You can use any type of data, but the rainfall data for RRI calculations must be in the following format:
 

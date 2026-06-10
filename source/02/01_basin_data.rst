@@ -9,7 +9,7 @@ First, we need to prepare the following Basin Terrain Datasets. All data must be
 
 For instructions on preparing these datasets, please refer to Chapter 3 of the `RRI_Manual <https://www.pwri.go.jp/icharm/research/rri/index.html>`_ for the method using GIS software, and Chapter 9 for the method using the RRI-GUI.
 
-Members of iRIC-UC can obtain the data using `UC tools <https://tools.i-ric.info/login/>`_, which currently provides Japanese domestic data only.
+By using `UC tools <https://tools.i-ric.info/login/>`_, which is available to anyone upon registration, you can also easily obtain the data (currently provides Japanese domestic data only).
 
 .. note::
    By using UC tools, you can extract and download watershed terrain datasets across Japan.
