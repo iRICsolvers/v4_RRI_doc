@@ -108,66 +108,36 @@ iRIC上で時系列のASC形式ファイルを以下の手順で可視化確認�
 
 3.1 格子・格子属性の作成・確認
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-「計算条件＞設定」から計算条件設定画面を開きます。「グループ＞基本条件」で以下のように条件を設定します。
+「格子＞格子生成アルゴリズムの選択＞RRI DEM・河道格子生成」を起動してください。
 
+「格子生成」ダイアログが開きます。以下の通り設定してください。
 
-.. list-table:: 基本条件グループ
-   :widths: 70 30
-   :header-rows: 1
+**「地形データ」タブ**
 
-   * - 画面
-     - 条件
-   * - .. image:: img_1/cond_1.jpg
-     - | モード：「格子・格子属性生成」
-       
-       | データファイル設定
-       |  - DEM: 水文補正標高(elv_export.asc)
-       |  - Acc: 上流集水グリッド数(upg_export.asc)
-       |  - Dir: 表面流向データ(dir_export.asc)
+.. figure:: img_1/rri_demAdjust2_main.jpg
+   :scale: 50%
+   :alt:
 
-       | 河道形状をパラメータ-
-       |  - :math:`C_w=5, S_w=0.35`
-       |  - :math:`C_d=0.95, S_d=0.2`
-       |  - 堤防高[m]=2, 堤防セル閾値=1000
+- 座標系：経度・緯度
+- DEMファイル：elv_export.asc
+- DIRファイル：dir_export.asc
+- ACCファイル：upg_export.asc
 
+**「河道形状」タブ**
 
-「保存して閉じる」をクリックし、「計算＞実行」をクリックします。
-以下のような警告が表示されるかもしれませんが、問題ないので無視してください。
+.. figure:: img_1/rri_demAdjust2_river.jpg
+   :scale: 50%
+   :alt:
 
-「いいえ」をクリックします。
-    .. image:: img_1/warning_mapping.jpg
-        :width: 480px
-        :align: center
+- 河道セル判定ACC：100
+- 川幅：Cw = 5、Sw = 0.35
+- 河道深：Cd = 0.95、Sd = 0.2
+- 堤防高：高さ[m] = 2、高さを設定する最小ACC = 1000
 
+「格子生成(C)」ボタンをクリックします。
+処理が完了すると、格子および格子属性が自動的に作成されます。
 
-「はい」をクリックします。
-    .. image:: img_1/warning_nogrid.jpg
-        :width: 480px
-        :align: center
-
-以下のような警告が表示されるかもしれませんが、問題ないので無視してください。
-「OK」をクリックします。
-    .. image:: img_1/warning_mapping2.jpg
-        :width: 480px
-        :align: center
-
-
-保存はipro形式としてください。
-    .. image:: img_1/save_ipro.jpg
-        :width: 480px
-        :align: centeraa
-
-データ処理が始まると以下の画面が表示されます。
-    .. image:: img_1/running2.jpg
-        :width: 640px
-        :align: center
-
-処理が完了すると以下の画面が表示されます。
-    .. image:: img_1/end_run.jpg
-        :width: 240px
-        :align: center
-
-プロジェクトを保存し、「ファイル＞開く」から再度プロジェクトを開いてください。
+プロジェクトをipro形式で保存してください。「ファイル＞名前を付けてファイルに保存（ipro）」
 
 「オブジェクトブラウザ＞格子」の格子形状、および、セル属性で作成された値を確認することができます。
 
