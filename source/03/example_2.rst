@@ -108,6 +108,8 @@ Channel Depth [m]: Channel depth is set using the function :math:`D = C_d A^{S_d
 
 Other set parameters, such as Levee Height (m), can also be confirmed here. If you map land use, rainfall distribution set in 3.2, rainfall (mm/h), and grain size distribution (area) set on slopes and river channels as cell attributes, you can also check them here.
 
+Note that channel width and depth are important parameters for the RRI model. If you need to change these values, please regenerate the grid.
+
 -----
 
 3.2 Setting Rainfall 

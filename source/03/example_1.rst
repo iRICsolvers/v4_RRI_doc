@@ -184,6 +184,8 @@ Height [m]: Levees are set at locations where the number of upstream accumulated
         :width: 640px
         :align: center
 
+Note that channel width and depth are important parameters for the RRI model. If you need to change these values, please regenerate the grid.
+
 -----
 
 
