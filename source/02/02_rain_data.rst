@@ -8,6 +8,21 @@ Rainfall intensity data, including both observed and forecasted data, is created
 
 For instructions on preparing the rainfall dataset, please refer to Chapter 4 or Chapter 9 of the RRI_Manual.
 By using `UC tools <https://tools.i-ric.info/login/>`_, which is available to anyone upon registration, you can also easily extract rainfall data within Japan.
+The procedure is as follows:
+
+.. figure:: img/uc_tools_rain.jpg
+   :scale: 50%
+   :alt:
+
+In STEP 1, set the area to cover the entire target watershed by entering a latitude/longitude range or dragging on the map, then click "Apply" (適用する).
+In STEP 2, set the desired data period.
+Then click the confirmation button in STEP 3. The following confirmation screen will appear:
+
+.. figure:: img/uc_tools_rain_step3.jpg
+   :scale: 50%
+   :alt:
+
+Verify the extraction period and area coordinates, then click "変換開始" (Start Conversion) to download the rainfall data.
 
 You can use any type of data, but the rainfall data for RRI calculations must be in the following format:
 

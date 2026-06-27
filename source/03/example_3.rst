@@ -36,7 +36,7 @@ This analysis involves landslide and debris flow calculations, requiring the cre
 解析雨量については、 `気象庁のホームページ <https://www.jma.go.jp/jma/kishou/know/kurashi/kaiseki.html#:~:text=%E8%A7%A3%E6%9E%90%E9%9B%A8%E9%87%8F%E3%81%A8%E9%80%9F%E5%A0%B1%E7%89%88,%E3%81%94%E3%81%A8%E3%81%AB%E4%BD%9C%E6%88%90%E3%81%95%E3%82%8C%E3%81%BE%E3%81%99%E3%80%82>`_ をご確認ください。
 
 本解析事例では、解析雨量データをRRI用の降雨データ形式に変換したファイル"rain.dat"を格納しています。
-申請すれば誰でも利用できる `UC tools <https://tools.i-ric.info/login/>`_ を使うことで、雨量データファイル"rain.dat"を容易に作成することもできます。
+申請すれば誰でも利用できる `UC tools <https://tools.i-ric.info/login/>`_ を使うことで、雨量データファイル"rain.dat"を容易に作成することもできます。UC toolsを用いた詳細な手順については、概要の「２．降雨データセットの作成」を参照してください。
 
 -----
 

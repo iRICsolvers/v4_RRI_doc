@@ -53,6 +53,8 @@ The time is in UTC. Data in ASC format can be visualized and displayed in GIS.
 If you have a Python execution environment, you can use it. 
 If you do not have a Python execution environment, a file "rain.dat", which has already been converted to the RRI rainfall data format, is also included.
 
+You can also prepare rainfall data using `UC tools <https://tools.i-ric.info/login/>`_, which is available to anyone upon registration. For the detailed procedure, please refer to "2. Preparation for a rainfall dataset" in the Overview.
+
 **<Data check>**
 
 Time-series ASC format files can be visualized and checked on iRIC using the following procedure. 
