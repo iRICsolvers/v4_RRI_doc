@@ -23,6 +23,8 @@ Then click the confirmation button in STEP 3. The following confirmation screen 
    :alt:
 
 Verify the extraction period and area coordinates, then click "変換開始" (Start Conversion) to download the rainfall data.
+When you click "変換開始", the conversion process will begin, and a download URL for the rainfall data will be sent to the email address registered with UC tools.
+The information regarding the clipped area (latitude/longitude range) is used as input conditions for the RRI model.
 
 You can use any type of data, but the rainfall data for RRI calculations must be in the following format:
 
