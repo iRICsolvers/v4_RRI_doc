@@ -1,13 +1,9 @@
 5. Running the Calculation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-After creating the grid and grid attributes and setting other calculation conditions in the Calculation Condition Setting, the next step is to execute the calculation. 
-Go to "Calculation Condition" > "Setting" to open the Calculation Condition Setting window and select "Basic Conditions." 
-In "RunType", choose "Run only" and click "OK."
+After creating the grid and grid attributes using the RRI DEM and River Grid Creator and setting the calculation conditions, you are ready to run the calculation.
 
-.. figure:: img/cond_9_en.jpg
-   :scale: 80%
-   :alt:
+In the new version of RRI on iRIC, "RunType" in "Basic Conditions" is set to "Run Only" by default, so no change is needed.
 
-Clicking "Run" will start the calculation.
+Click "Calculation > Run" to start the calculation.
 
 

@@ -114,50 +114,36 @@ The data imported here is not used for calculation. This function is only for vi
 
 3.1 Creating and Verifying the Grid and Grid Attributes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Open the calculation condition setting screen from "Calculation Condition > Setting".  Set the conditions as follows in the "Group > Base Conditions" section.
+Go to "Grid > Select Grid Algorithm > RRI DEM and River Grid Creator" to launch it.
 
+The "Grid Generation" dialog will open. Set the following conditions.
 
-.. list-table:: Base conditions
-   :widths: 70 30
-   :header-rows: 1
+**"Terrain Data" tab**
 
-   * - Screen
-     - Condition
-   * - .. image:: img_1/cond_1_en.jpg
-     - | Run type：Make Geographic Condition Only
+.. figure:: img_1/rri_demAdjust2_main.jpg
+   :scale: 50%
+   :alt:
 
-       | Base Parameters
-       |  - Coordinate System: LatLon
-       |  - Number for DIR Directions: 8
+- Coordinate System: Lat/Lon
+- DEM file: elv_export.asc
+- DIR file: dir_export.asc
+- ACC file: upg_export.asc
 
-       | Geographic Data file
-       |  - DEM: (elv_export.asc)
-       |  - Acc: (upg_export.asc)
-       |  - Dir: (dir_export.asc)
+**"River Shape" tab**
 
-       | River Shape Parameters
-       |  - :math:`C_w=5, S_w=0.35`
-       |  - :math:`C_d=0.95, S_d=0.2`
-       |  - Levee Height [m] = 2, 
-       |  - Levee Cell Threshold = 1000
+.. figure:: img_1/rri_demAdjust2_river.jpg
+   :scale: 50%
+   :alt:
 
+- River Channel Cell ACC Threshold: 100
+- River Width: :math:`C_w=5, S_w=0.35`
+- River Depth: :math:`C_d=0.95, S_d=0.2`
+- Levee: Height [m] = 2, Minimum ACC for height setting = 1000
 
-Click "Save and Close", then click "Calculation > Run".
+Click "Generate Grid(C)" to start processing.
+When processing is complete, grids and grid attributes are automatically created.
 
-You may see the following warnings, but they can be ignored.
-
-    .. image:: img_1/warning_mapping_en.jpg
-        :width: 480px
-        :align: center
-
-When processing is complete, the following screen will be displayed.
-    .. image:: img_1/end_run_en.jpg
-        :width: 480px
-        :align: center
-
-Save the project in ipro format. Erom "File > Save as file (ipro)".
-
-Close the iRIC and reopen it the saved file.
+Save the project in ipro format. From "File > Save as file (ipro)".
 
 You can check the grid shape and the created cell attribute values in "Object Browser > Grid".
 
@@ -289,7 +275,7 @@ Here, we will not consider subsurface infiltration or groundwater flow, so set t
 
 ４．Run the calculation
 --------------------------------------------------
-On the calculation condition screen, set the execution mode in "Basi Conditions" to "Run only". Click "Save and Close" to close the calculation condition setting screen.
+On the calculation condition screen, set the execution mode in "Base Conditions" to "Run only". Click "Save and Close" to close the calculation condition setting screen.
 
 .. image:: img_1/cond_0_en.jpg
 :width: 480px

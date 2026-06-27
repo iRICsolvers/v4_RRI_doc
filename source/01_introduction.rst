@@ -4,7 +4,7 @@ Introduction
 This document is a user manual for RRI on iRIC. 
 
 About RRI:   
-The RRI model is to simulate a Rainfall-Runoff-Inundataion processes  [1]_ ,  [2]_ ,  [3]_ .   
+The RRI model is to simulate a Rainfall-Runoff-Inundation processes  [1]_ ,  [2]_ ,  [3]_ .   
 The RRI model is available for free on the `ICHARM website <https://www.pwri.go.jp/icharm/research/rri/index.html>`_
   
 For details, including the governing equations of the RRI model, please refer to the RRI manual included with the RRI model download.   

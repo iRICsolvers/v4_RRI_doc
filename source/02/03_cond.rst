@@ -11,69 +11,57 @@ Click on "Calculation Conditions > Settings."
 
 3.1 Creating Grids and Grid Attributes
 +++++++++++++++++++++++++++++++++++++++
-In "RRI on iRIC," grids and grid attributes are created based on the values entered in the Basic Conditions group of the calculation conditions.
+Grids and grid attributes are created using the **RRI DEM and River Grid Creator**.
+Go to "Grid > Select Grid Algorithm > RRI DEM and River Grid Creator" to launch it.
 
-.. list-table:: Basic Conditions Group
-   :widths: 70 30
-   :header-rows: 1
-
-   * - Screen
-     - Condition
-   * - .. image:: img/cond_1_en.jpg
-     - | Runtype：
-       |  Select 'Make Geographic Condition Only'
-
-       | Geograpic Data file：
-       | Specify the files downloaded in step 1
-       |  - DEM: Hydrologically corrected elevation
-       |  - Acc: Number of upstream drainage grids
-       |  - Dir: Surface flow direction data
-
-       | River Shape parameters：
-       | Specify river channel parameters
-       |  - River width: :math:`W = C_w A^{S_w}`
-       |  - River depth: :math:`D = C_D A^{S_D}`
-       |  - Levee: Levee height [m], Levee cell threshold
-
-
-After setting these values, click the "OK" button.
-Run the calculation by ckicking "Run" button. A warning will appear, but it is not an issue, so click "Yes."
-
-.. figure:: img/nogrid_error_en.jpg
-   :scale: 40%
-   :alt:
-
-A message recommending that you save the data before running the calculation will appear. Click "Yes."
-
-.. figure:: img/info_save_en.jpg
-   :scale: 40%
-   :alt:
-
-Next, a screen will prompt you to choose a save method. Select "Save to file (ipro)" and click the "OK" button. Then, set an appropriate name and save the file.
-
-.. figure:: img/save_type_en.jpg
+.. figure:: img/select_grid_algo.jpg
    :scale: 50%
    :alt:
 
-Data processing will begin, and the following window will be displayed. There are processes from STEP1 to STEP8 or 10.
+.. note::
+   In the previous version, grids were created using the "Make Geographic Condition Only" mode in the calculation conditions. In the new version, this feature is a legacy setting. For new projects, please use the RRI DEM and River Grid Creator.
 
-.. figure:: img/rri_exe_console_en.jpg
-   :scale: 60%
+   If iRIC is already installed, launch the maintenance tool, run "Update components", and in "Add or remove components", check "RRI DEM and River Grid Creator" under "Grid generators" to update.
+
+The "Grid Generation" dialog will open. Configure the settings as follows.
+
+**"Terrain Data" tab**
+
+.. figure:: img/rri_demAdjust2_main.jpg
+   :scale: 50%
    :alt:
 
-Once processing is complete, click the "OK" button and **save the project**.
+- Coordinate System: Lat/Lon
+- DEM file: Hydrologically corrected elevation file (.asc)
+- DIR file: Surface flow direction data file (.asc)
+- ACC file: Number of upstream drainage grids file (.asc)
+
+**"River Shape" tab**
+
+.. figure:: img/rri_demAdjust2_river.jpg
+   :scale: 50%
+   :alt:
+
+- River Channel Cell ACC Threshold: ACC threshold for designating cells as river channels
+- River Width: :math:`W = C_w A^{S_w}`
+- River Depth: :math:`D = C_d A^{S_d}`
+- Levee: Height [m], Minimum ACC for height setting
+
+Click "Generate Grid(C)" to start processing.
+When processing is complete, grids and grid attributes are automatically created.
+Save the project.
 
 -----
 
-Once the above process is complete, you will be able to review the grids and grid attributes for the calculation. **Please reopen the file you saved earlier by selecting "File > Open."**
+Once the above process is complete, you will be able to review the grids and grid attributes for the calculation.
 
-To review the grids and grid attributes, it is necessary to decignate the coordinate system. After setting your own coordinate, click 'OK'.
+To review the grids and grid attributes, it is necessary to designate the coordinate system. After setting your own coordinate, click 'OK'.
 
 .. figure:: img/coordinate_en.jpg
    :scale: 40%
    :alt:
 
-After setting the coordinate system, you will be able to review the grid shape and grid atteibutes.
+After setting the coordinate system, you will be able to review the grid shape and grid attributes.
 
 .. figure:: img/grid_shape_en.jpg
    :scale: 50%
@@ -85,7 +73,7 @@ After setting the coordinate system, you will be able to review the grid shape a
    :scale: 50%
    :alt:
 
-   Cell attributes：Elavation[m]　DEM 
+   Cell attributes：Elevation[m]　DEM 
 
 .. figure:: img/ini_dir_en.jpg
    :scale: 50%

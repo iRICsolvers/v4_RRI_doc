@@ -42,66 +42,39 @@ By using `UC tools <https://tools.i-ric.info/login/>`_, which is available to an
 
 3.1 Creating and Verifying the Grid and Grid Attributes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Open the calculation condition setting screen from "Calculation Condition > Setting". Set the conditions as follows in the "Group > Base Conditions" section.
+Go to "Grid > Select Grid Algorithm > RRI DEM and River Grid Creator" to launch it.
 
-When performing sediment calculations, the channel width is an important parameter for evaluating bed shear stress, so set it to correspond to the actual conditions in the field. 
+When performing sediment calculations, the channel width is an important parameter for evaluating bed shear stress, so set it to correspond to the actual conditions in the field.
 Also, in this calculation, the parameters related to channel depth (`Cd`) are set to large values to prevent the river channel from being completely filled with sediment.
 
-.. list-table:: Base Conditions Group
-   :widths: 80 20
-   :header-rows: 1
+The "Grid Generation" dialog will open. Set the following conditions.
 
-   * - Screen
-     - Condition
-   * - .. image:: img_2/cond_1.jpg
-     - | Execution Mode: 
-       | "Make Geographic Condition Only"
+**"Terrain Data" tab**
 
-       | Base Parameters
-       |  - Coordinate System: LatLon
-       |  - Number for DIR Directions: 8
+.. figure:: img_2/rri_demAdjust2_main.jpg
+   :scale: 50%
+   :alt:
 
-       | Geographic data file
-       |  - DEM: filldem.txt
-       |  - Acc: acc.txt
-       |  - Dir: dir_kurokawa.txt
+- Coordinate System: Lat/Lon
+- DEM file: filldem.txt
+- DIR file: dir_kurokawa.txt
+- ACC file: acc.txt
 
-       | River Shape Parameters
-       |  - :math:`C_w=12, S_w=0.5`
-       |  - :math:`C_d=8, S_d=0.2`
-       |  - Levee Height [m] = 0 
-       |  - Levee Cell Threshold = 500
+**"River Shape" tab**
 
-Click "OK", then click "Calculation > Run".
+.. figure:: img_2/rri_demAdjust2_river.jpg
+   :scale: 50%
+   :alt:
 
-You may see the following warnings, but they can be ignored.
+- River Channel Cell ACC Threshold: 500
+- River Width: :math:`C_w=12, S_w=0.5`
+- River Depth: :math:`C_d=8, S_d=0.2`
+- Levee: Height [m] = 0, Minimum ACC for height setting = 500
 
-Click "Yes".
-    .. image:: img_2/warning_nogrid.jpg
-        :width: 480px
-        :align: center
+Click "Generate Grid(C)" to start processing.
+When processing is complete, grids and grid attributes are automatically created.
 
-Click "OK".
-    .. image:: img_2/warning_mapping2.jpg
-        :width: 480px
-        :align: center
-
-Save the project in ipro format.
-    .. image:: img_2/save_ipro.jpg
-        :width: 480px
-        :align: center
-
-When data processing begins, the following screen will be displayed.
-    .. image:: img_2/running2.jpg
-        :width: 640px
-        :align: center
-
-When processing is complete, the following screen will be displayed.
-    .. image:: img_2/end_run.jpg
-        :width: 240px
-        :align: center
-
-Save the project and reopen it from "File > Open".
+Save the project and open it from "File > Open".
 
 You can check the grid shape and the created cell attribute values in "Object Browser > Grid".
 
@@ -231,7 +204,7 @@ Here, the parameters are adjusted for the inflow to the Terauchi Dam, and are se
 Before conducting sediment calculations, it is recommended to run a flow-only calculation first to verify that the calculation conditions are set correctly and to perform calibration. 
 In this example, the parameters used have been calibrated for water runoff for the entire Terauchi Dam basin.
 
-On the calculation condition screen, set the execution mode in "Basse Conditions" to "Run only". Click "OK" to close the calculation condition setting screen.
+On the calculation condition screen, set the execution mode in "Base Conditions" to "Run only". Click "OK" to close the calculation condition setting screen.
 
 .. image:: img_2/cond_0.jpg
         :width: 480px
