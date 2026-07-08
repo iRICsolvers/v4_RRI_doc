@@ -227,7 +227,7 @@ This analysis involves landslide and debris flow calculations, requiring the cre
 
        | ksv[m/s]：0
 
-       | ka[m/s]：0
+       | ka[m/s]：0.06
        | Unsat.porosity：0.1
        | beta：8
 
