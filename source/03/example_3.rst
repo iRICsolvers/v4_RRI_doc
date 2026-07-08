@@ -191,7 +191,7 @@ Example3：(RSRモデル) 2017年7月 黒川
 
        | ksv[m/s]：0
 
-       | ka[m/s]：0
+       | ka[m/s]：0.06
        | Unsat.porosity：0.1
        | beta：8
 
